@@ -156,20 +156,20 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <form>
+          <form method="POST" action="https://formspree.io/f/mjvlpwdb">
             <div class="mb-3">
               <label for="name" class="form-label" style="color: #f5f6fa;">Nama Lengkap</label>
-              <input type="text" class="form-control" id="name" aria-describedby="name">
+              <input type="text" class="form-control" id="name" aria-describedby="name" required="" name="name">
             </div>
             <div class="mb-3">
               <label for="email" class="form-label" style="color: #f5f6fa;">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="email">
+              <input type="email" class="form-control" id="email" aria-describedby="email" required="" name="email">
               <div id="emailHelp" class="form-text" style="color: #f5f6fa;">Kami tidak akan membagikan email anda ke
                 pihak manapun</div>
             </div>
             <div class="mb-3">
               <label for="pesan" class="form-label" style="color: #f5f6fa;">Pesan</label>
-              <textarea class="form-control" id="pesan" rows="3"></textarea>
+              <textarea class="form-control" id="pesan" rows="3" required="" name="pesan"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Kirim</button>
           </form>
